@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":[
+		{
+			"item": "minecraft:arrow"			
+		},
+		{
+			"item": "minecraft:ender_pearl"
+		}
+	],
+	"result": {
+		"item": "c_ah_mod:teleportation_arrow",
+		"count": 1
+	}
+}},

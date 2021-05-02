@@ -1,0 +1,16 @@
+  
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":[
+		{
+			"item": "minecraft:arrow"			
+		},
+		{
+			"item": "minecraft:tnt"
+		}
+	],
+	"result": {
+		"item": "c_ah_mod:tnt_arrow",
+		"count": 1
+	}
+}

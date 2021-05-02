@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":[
+		{
+			"item": "minecraft:arrow"			
+		},
+		{
+			"item": "minecraft:redstone"			
+		},
+		{
+			"item": "minecraft:glowstone_dust"
+		}
+	],
+	"result": {
+		"item": "c_ah_mod:lightning_arrow",
+		"count": 1
+	}
+}
