@@ -2,6 +2,7 @@ package com.github.svakhil00.c_ah_mod.client;
 
 import com.github.svakhil00.c_ah_mod.Arrowheads;
 import com.github.svakhil00.c_ah_mod.client.renderer.entity.FlameArrowRenderer;
+import com.github.svakhil00.c_ah_mod.client.renderer.entity.LevitationArrowRenderer;
 import com.github.svakhil00.c_ah_mod.client.renderer.entity.LightningArrowRenderer;
 import com.github.svakhil00.c_ah_mod.client.renderer.entity.TNTArrowRenderer;
 import com.github.svakhil00.c_ah_mod.client.renderer.entity.TeleportationArrowRenderer;
@@ -27,6 +28,8 @@ public class ClientModEventSubscriber {
 				manager -> new LightningArrowRenderer(manager, Minecraft.getInstance().getItemRenderer()));
 		RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.TELEPORTATION_ARROW_ENTITY.get(),
 				manager -> new TeleportationArrowRenderer(manager, Minecraft.getInstance().getItemRenderer()));
+		RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.LEVITATION_ARROW_ENTITY.get(),
+				manager -> new LevitationArrowRenderer(manager, Minecraft.getInstance().getItemRenderer()));
 		
 	}
 }

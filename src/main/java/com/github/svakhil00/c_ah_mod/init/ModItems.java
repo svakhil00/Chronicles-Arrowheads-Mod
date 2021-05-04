@@ -2,6 +2,7 @@ package com.github.svakhil00.c_ah_mod.init;
 
 import com.github.svakhil00.c_ah_mod.Arrowheads;
 import com.github.svakhil00.c_ah_mod.item.FlameArrowItem;
+import com.github.svakhil00.c_ah_mod.item.LevitationArrowItem;
 import com.github.svakhil00.c_ah_mod.item.LightningArrowItem;
 import com.github.svakhil00.c_ah_mod.item.TNTArrowItem;
 import com.github.svakhil00.c_ah_mod.item.TeleportationArrowItem;
@@ -18,4 +19,6 @@ public class ModItems {
 	public static final RegistryObject<FlameArrowItem> FLAME_ARROW = ITEMS.register("flame_arrow", () -> new FlameArrowItem(new Item.Properties().tab(ModItemGroups.MOD_ITEM_GROUP)));
 	public static final RegistryObject<LightningArrowItem> LIGHTNING_ARROW = ITEMS.register("lightning_arrow", () -> new LightningArrowItem(new Item.Properties().tab(ModItemGroups.MOD_ITEM_GROUP)));
 	public static final RegistryObject<TeleportationArrowItem> TELEPORTATION_ARROW = ITEMS.register("teleportation_arrow", () -> new TeleportationArrowItem(new Item.Properties().tab(ModItemGroups.MOD_ITEM_GROUP)));
+	public static final RegistryObject<LevitationArrowItem> LEVITATION_ARROW = ITEMS.register("levitation_arrow", () -> new LevitationArrowItem(new Item.Properties().tab(ModItemGroups.MOD_ITEM_GROUP)));
+
 }

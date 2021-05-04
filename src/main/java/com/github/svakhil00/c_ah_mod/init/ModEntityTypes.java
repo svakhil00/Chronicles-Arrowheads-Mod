@@ -2,6 +2,7 @@ package com.github.svakhil00.c_ah_mod.init;
 
 import com.github.svakhil00.c_ah_mod.Arrowheads;
 import com.github.svakhil00.c_ah_mod.entity.projectile.FlameArrowEntity;
+import com.github.svakhil00.c_ah_mod.entity.projectile.LevitationArrowEntity;
 import com.github.svakhil00.c_ah_mod.entity.projectile.LightningArrowEntity;
 import com.github.svakhil00.c_ah_mod.entity.projectile.TNTArrowEntity;
 import com.github.svakhil00.c_ah_mod.entity.projectile.TeleportationArrowEntity;
@@ -24,5 +25,7 @@ public class ModEntityTypes {
 			.clientTrackingRange(4).updateInterval(20).build(Arrowheads.MODID + ":lightning_arrow"));
 	public static final RegistryObject<EntityType<TeleportationArrowEntity>> TELEPORTATION_ARROW_ENTITY = ENTITY_TYPES.register("teleportation_arrow", () -> EntityType.Builder.<TeleportationArrowEntity>of(TeleportationArrowEntity::new, EntityClassification.MISC).sized(.5F, .5F)
 			.clientTrackingRange(4).updateInterval(20).build(Arrowheads.MODID + ":teleportation_arrow"));
+	public static final RegistryObject<EntityType<LevitationArrowEntity>> LEVITATION_ARROW_ENTITY = ENTITY_TYPES.register("levitation_arrow", () -> EntityType.Builder.<LevitationArrowEntity>of(LevitationArrowEntity::new, EntityClassification.MISC).sized(.5F, .5F)
+			.clientTrackingRange(4).updateInterval(20).build(Arrowheads.MODID + ":levitation_arrow"));
 
 }
