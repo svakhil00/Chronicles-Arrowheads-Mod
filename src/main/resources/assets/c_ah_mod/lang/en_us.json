@@ -1,0 +1,9 @@
+{
+	"itemGroup.c_mcu_mod": "Chronicle's MCU Mod",
+	
+	"item.c_ah_mod.tnt_arrow": "TNT Arrow",
+	"item.c_ah_mod.flame_arrow": "Flame Arrow",
+	"item.c_ah_mod.lightning_arrow": "Lightning Arrow",
+	"item.c_ah_mod.teleportation_arrow": "Teleportation Arrow",
+	"item.c_ah_mod.levitation_arrow": "Levitation Arrow"
+}

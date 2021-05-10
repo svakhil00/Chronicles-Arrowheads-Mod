@@ -1,6 +1,7 @@
 package com.github.svakhil00.c_ah_mod.entity.projectile;
 
 import com.github.svakhil00.c_ah_mod.init.ModEntityTypes;
+import com.github.svakhil00.c_ah_mod.init.ModItems;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -130,9 +131,7 @@ public class TeleportationArrowEntity extends AbstractArrowEntity {
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return null;
-		// TODO Auto-generated method stub
-		// return new ItemStack(ModItems.TNT_ARROW.get());
+		return new ItemStack(ModItems.TELEPORTATION_ARROW.get());
 	}
 
 	@Override
