@@ -8,7 +8,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
 public class ModItemGroups {
-	public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup("Arrowheads", () -> new ItemStack(ModItems.TNT_ARROW.get()));
+	public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(Arrowheads.MODID, () -> new ItemStack(ModItems.TNT_ARROW.get()));
 }
 
 class ModItemGroup extends ItemGroup {
