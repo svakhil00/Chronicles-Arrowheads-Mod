@@ -1,5 +1,6 @@
 package com.github.svakhil00.c_ah_mod.client.renderer.entity;
 
+import com.github.svakhil00.c_ah_mod.Arrowheads;
 import com.github.svakhil00.c_ah_mod.entity.projectile.TeleportationArrowEntity;
 
 import net.minecraft.client.renderer.entity.ArrowRenderer;
